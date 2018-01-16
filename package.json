@@ -1,0 +1,27 @@
+{
+  "name": "@mobx-app/concurrency",
+  "version": "0.0.1",
+  "description": "Asynchronous tasks for mobx-app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mobx-app/concurrency.git"
+  },
+  "keywords": [
+    "async",
+    "asynchronous",
+    "react",
+    "concurrency",
+    "mobx",
+    "mobx-app"
+  ],
+  "author": "Artur Smirnov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mobx-app/concurrency/issues"
+  },
+  "homepage": "https://github.com/mobx-app/concurrency#readme"
+}
