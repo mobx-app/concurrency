@@ -6,6 +6,7 @@
   "types": "lib/index.d.ts",
   "typings": "lib/index.d.ts",
   "scripts": {
+    "start": "webpack-dev-server",
     "build": "tsc",
     "prepublish": "yarn build"
   },
@@ -32,7 +33,13 @@
   "homepage": "https://github.com/mobx-app/concurrency#readme",
   "devDependencies": {
     "@types/es6-promise": "^3.3.0",
-    "typescript-eslint-parser": "^12.0.0"
+    "clean-webpack-plugin": "^0.1.17",
+    "html-webpack-plugin": "^2.30.1",
+    "ts-loader": "^3.2.0",
+    "typescript": "^2.6.2",
+    "typescript-eslint-parser": "^12.0.0",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.0"
   },
   "dependencies": {
     "es6-promise": "^4.2.2"
