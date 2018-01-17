@@ -2,14 +2,20 @@
   "name": "@mobx-app/concurrency",
   "version": "0.0.1",
   "description": "Asynchronous tasks for mobx-app",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "typings": "lib/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "prepublish": "yarn build"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mobx-app/concurrency.git"
   },
+  "files": [
+    "lib"
+  ],
   "keywords": [
     "async",
     "asynchronous",
@@ -23,5 +29,12 @@
   "bugs": {
     "url": "https://github.com/mobx-app/concurrency/issues"
   },
-  "homepage": "https://github.com/mobx-app/concurrency#readme"
+  "homepage": "https://github.com/mobx-app/concurrency#readme",
+  "devDependencies": {
+    "@types/es6-promise": "^3.3.0",
+    "typescript-eslint-parser": "^12.0.0"
+  },
+  "dependencies": {
+    "es6-promise": "^4.2.2"
+  }
 }
