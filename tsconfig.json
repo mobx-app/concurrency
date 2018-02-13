@@ -1,21 +1,27 @@
 {
   "compilerOptions": {
-    "target": "es5",
-    "outDir": "lib",
-    "sourceMap": false,
+    "target": "ES5",
+    "module": "CommonJS",
+    "moduleResolution": "Node",
     "declaration": true,
-    "module": "commonjs",
-    "removeComments": false,
     "noImplicitReturns": true,
     "noImplicitUseStrict": true,
     "noImplicitAny": false,
-    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "downlevelIteration": true,
+    "removeComments": false,
+    "sourceMap": false,
+    "outDir": "lib",
     "lib": [
-      "es5",
-      "es2015.promise",
-      "dom"
+      "DOM",
+      "ES5",
+      "ESNext"
     ]
   },
+  "include": [
+    "src/**/*"
+  ],
   "exclude": [
     "node_modules",
     "test",
